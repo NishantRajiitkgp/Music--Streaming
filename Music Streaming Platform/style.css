@@ -1,0 +1,347 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+
+.left{
+    width: 25vw;
+    padding: 10px;
+}
+
+.right{
+    width: 75vw;
+}
+
+.home{
+    padding: 10-px;
+}
+
+.home ul li{
+    display: flex;
+    gap: 15px;
+    width: 15px;
+    list-style: none;
+    padding-top: 14px;
+}
+
+.bg-black{
+    background-color: black;
+    color: white;
+}
+
+.bg-grey{
+    background-color: #121212;
+}
+.rounded{
+    border-radius: 7px;
+}
+
+.m-1{
+  margin: 5px;
+}
+
+.p-1{
+    padding: 10px;
+}
+
+.library{
+    /* min-height: 80vh; */
+    position: relative;
+}
+.heading{
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding-top: 14px ;
+    padding: 23px 14px;
+    font-weight: bold;
+    align-items: center;
+    font-size: 13px;
+}
+
+.heading img{
+    width: 30px;
+}
+.s-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 50%;
+    background-color: rgb(245, 172, 24);
+    margin: 0;
+    padding: 0;
+}
+
+.r-1{
+    margin: 1px;
+    padding: 0;
+    font-size: 13px;
+    background-color: rgb(44, 44, 40);
+    border-radius: 15%;
+}
+.button{
+    display: inline-flex;
+    gap: 5px;
+}
+/* .btn-1{
+    display:flex;
+    margin: 0;
+    padding: 2px 7px;
+    text-decoration: none;
+    color: #fff8f8;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgba(118, 101, 101, 0.413);
+    font-weight: bold;
+} */
+
+.btn-1 {
+    background-color: #2a2a2a;
+    color: #fff;
+    border: none;
+    padding: 8px 10px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-1:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  svg {
+    width: 20px;
+    height: 40px;
+    fill: #000000; /* Spotify black color */
+    transition: fill 0.3s ease; /* Add a smooth transition effect */
+    cursor: pointer;
+  }
+
+  svg:hover {
+    fill: #fffafa; /* Change color on hover */
+  }
+  .header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .btn-nav{
+    border: 0px;
+    display: inline-block;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 30px;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn-nav:hover{
+    background-color:#424547;
+  }
+  .signup {
+    background-color: #272b28; /* Spotify green color */
+    color: #ffffff;
+  }
+
+  .login {
+    background-color: transparent;
+    border: 2px solid #e8ece9; /* Spotify green color */
+    color: #ced5d0;
+  }
+  .search-bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    
+  }
+ 
+  .search-bar img{
+    width: 25px;
+    height: 25px;
+  }
+.recents-1{
+  display: flex;
+  gap: 10px;
+}
+.recents-1 h4{
+  color: #798085;
+}
+.album{
+  background-color: #d89d9d3e;
+  width: 100%;
+  height: 60px;
+  border-radius: 6px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.container-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  padding-top: 20px;
+  padding-right: 50px;
+  
+}
+.gradient-div {
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(to bottom, #ea7f7f5a, #000000);
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Glassy box shadow */
+  padding-bottom: 10px;
+}
+
+.gradient-div h1{
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.album img{
+  border-radius: 5px;
+  height: 60px;
+  opacity: 100%;
+
+}
+.img-alb{
+        display: inline-flex;
+
+}
+.img-alb h3{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.mid-right{
+  padding-left: 20px;
+  padding-top: 30px;
+
+}
+.mid-right h2{
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.container-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr ;
+  gap: 10px;
+}
+
+.play-alb{
+  padding-top:px;
+  background-color: #181717;
+  width: 189.6px;
+  height: 270.4px;
+  border-radius: 7px;
+}
+.play-alb-2 img{
+     width: 157.6px;
+     height: 157.6px;
+     padding-left: 16px;
+     padding-top: 16px;
+     padding-bottom: 16px;
+     
+}
+.play-alb-2 h3{
+  padding-left: 16px;
+}
+
+.play-alb-2 p{
+  color: grey;
+  padding-left: 16px;
+  padding-top: 10px;
+  font-size: 13px;
+}
+/* --------------Left Lower------------------------------- */
+.left-low{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.l-alb-1{
+  border-radius: 7px;
+  width: 100%;
+  height: 64px;
+   background-color: #1f1d1f9a;
+
+}
+.l-alb-1 h3{
+  padding-left: 16px;
+}
+.l-alb-1 p{
+  padding-top: 5px;
+  padding-left: 16px;
+  color: grey;
+  font-size: 15px;
+  font-weight: 540;
+}
+.l-alb-1 img{
+  padding-left: 16px;
+  width: 48px;
+}
+.l-alb-2{
+  padding-top: 10px;
+  display: flex;
+}
+/* .container-1 > .album > .img-alb > h3{
+  position: relative;
+}
+.container-1 > .album > .img-alb > .play-img >img{
+  position: absolute;
+  left: 15000px;
+} */
+
+/* ---------Positioning the Play Button----------- */
+/* .album > img-alb{
+  display: flex;
+  justify-content: ;
+} */
+/* .inside-alb{
+  display: flex;
+  justify-content: space-between;
+}
+.play-img-1{
+  gap: 100px;
+} */
+/* ---------Seekbar---------------------------------- */
+.seekbar{
+  background-color: rgb(0, 0, 0);
+  width: 1520px;
+  height: 72px;
+  position: fixed;
+  top: 626px;
+  left: 5px;
+
+}
+.seekbar> .seekin{
+  background-color: grey;
+  width: 512px;
+  height: 4px;
+  position: fixed;
+  top: 669.6px;
+  left: 545px;
+
+}
+.album {
+  display: flex;
+  justify-content: space-between;
+}
+
+.img-alb {
+  display: flex;
+  align-items: center;
+}
+
+.play-img {
+  margin-left: auto;
+}
+
